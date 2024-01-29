@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .part1 h2 {
+            background-color: rgba(214, 3, 3, 0.875);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .part1 h1 {
+            text-align: center;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        .part1 {
+            background-color: rgb(235, 235, 232);
+            height: auto;
+
+        }
+
+        .videos {
+            display: inline-flex;
+            padding-top: 10px;
+            padding-left: 150px;
+
+        }
+
+        .video2 {
+            margin-left: 260px;
+            margin-top: 50px;
+        }
+
+        .part2 h1 {
+            text-align: center;
+        }
+
+        .part2 img:nth-child(odd) {
+            border: 10px solid green;
+            border-radius: 50%;
+        }
+
+        .part2 img:nth-child(even) {
+            border: 10px solid red;
+            border-radius: 50%;
+        }
+
+        .part3 {
+            padding: 20px;
+            background-color: rgb(235, 235, 232);
+
+        }
+
+        .part3 h1 {
+            text-align: center;
+        }
+
+        .image2 {
+            padding-left: 80px;
+
+        }
+
+        .part3 img {
+            padding: 5px;
+            background-color: white;
+            margin: 10px;
+
+        }
+        .part4{
+            height: auto;
+        }
+
+        .part4 h1 {
+            text-align: center;
+        }
+
+        .form{
+            font-size: 25px;
+            width: 800px;
+            background-color: white;
+            padding: 50px;
+            margin: auto;
+        }
+        .form input{
+            width: 200px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="part1">
+        <h2>Gifting Deal : Shop above Rs. 9,999 and Avail a 10% Discount!</h2>
+        <h1>Flower video</h1>
+        <div class="videos">
+            <div class="video1">
+                <video controls width="450" height="300px">
+                    <source src="media/flower.webm" type="video/webm" />
+
+                    <source src="/mediaflower.mp4" type="video/mp4" />
+
+                    Download the
+                    <a href="">WEBM</a>
+                    or
+                    <a href="/media/flower.mp4">MP4</a>
+                    video.
+                </video>
+
+
+            </div>
+            <div class="video2">
+                <video controls width="450" height="300px">
+                    <source src="media/flower.webm" type="video/webm" />
+
+                    <source src="/mediaflower.mp4" type="video/mp4" />
+
+                    Download the
+                    <a href="">WEBM</a>
+                    or
+                    <a href="/media/flower.mp4">MP4</a>
+                    video.
+                </video>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="part2">
+        <div>
+            <h1>Category</h1>
+            <div class="image1">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+                <img src="/media/1.avif" alt="">
+
+            </div>
+        </div>
+    </div>
+    <div class="part3">
+        <h1>Shop by Brand</h1>
+        <div class="image2">
+            <img src="/media/2bottle.webp" alt="bottle">
+            <img src="/media/2bottle.webp" alt="bottle">
+            <img src="/media/2bottle.webp" alt="bottle">
+            <img src="/media/2bottle.webp" alt="bottle">
+        </div>
+    </div>
+    <div class="part4" style="background-image: url(./media/back_633847.png);">
+        <h1>Contact</h1>
+        <div class="form">
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name">Enter your name: </label>
+                    <input type="text" name="name" id="name" minlength="4" maxlength="8" required />
+                </div><br>
+                <div class="form-example">
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required />
+                </div><br>
+                <div class="form-example">
+                    <label for="password">Password : </label>
+                    <input type="password" name="password" id="password" required />
+                </div><br>
+                <label for="pet-select">Choose a pet:</label>
+
+                <select name="pets" id="pet-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="parrot">Parrot</option>
+                    <option value="spider">Spider</option>
+                    <option value="goldfish">Goldfish</option>
+                </select>
+                <br>
+                <fieldset>
+                    <legend>Select a gender:</legend>
+
+                    <div>
+                        <input type="radio" id="gender" name="gender" value="gender" />
+                        <label for="Male">Male</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="gender" name="gender" value="gender" />
+                        <label for="Female">Female</label>
+                    </div>
+
+
+                </fieldset>
+                <div>
+                    <fieldset>
+                        <legend>Choose food:</legend>
+
+                        <div>
+                            <input type="radio" id="food" name="food" value="food" />
+                            <label for="food">Pizza</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="food" name="food" value="food" />
+                            <label for="food">Burger</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <label for="avatar">Choose a profile picture:</label>
+
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+                <div class="form-example">
+                    <input type="submit" value="Subscribe!" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
